@@ -1,0 +1,40 @@
+USE apartamentos;
+CREATE TABLE `apartamentos_01` (
+	`id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`numero` INT(11) NOT NULL,
+	`codigo_producto` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`titulo_del_anuncio` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`enlace_del_anuncio` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`fecha_muestra` DATETIME NULL DEFAULT NULL,
+	`country` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`state` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`city` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`neighborhood` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`fecha_del_anuncio` DATETIME NULL DEFAULT NULL,
+	`operacion` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`tipo_inmueble` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`condicion` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`precio` DOUBLE NULL DEFAULT NULL,
+	`inicial` DOUBLE NULL DEFAULT NULL,
+	`habitaciones` DOUBLE NULL DEFAULT NULL,
+	`habitaciones_de_servicio` DOUBLE NULL DEFAULT NULL,
+	`banos` DOUBLE NULL DEFAULT NULL,
+	`banos_de_servicio` DOUBLE NULL DEFAULT NULL,
+	`estacionamiento` DOUBLE NULL DEFAULT NULL,
+	`totales_metros_cuadrados` DOUBLE NULL DEFAULT NULL,
+	`COVERED_AREA` DOUBLE NULL DEFAULT NULL,
+	`antigüedad` DOUBLE NULL DEFAULT NULL,
+	`descripción` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`precio_metro` DECIMAL(20,2) NULL DEFAULT NULL,
+	`direccion_url` VARCHAR(500) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`categoria` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`neighborhood_value` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`property_type` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`city_value` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`venta` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`estado` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+;
