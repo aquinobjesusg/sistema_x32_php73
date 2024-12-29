@@ -1,8 +1,14 @@
 
 # Información
-Aquí ay conjunto de herramientas, lenguajes de programación,  y servicios que se utilizan para desarrollar y ejecutar aplicaciones web en php bajo windows con maquinas de pocos recursos en 32bits, usando php7.3 y mariadbx32 y un HeidiSQL para ver la Base de Datos.
+Aquí ay conjunto de herramientas, lenguajes de programación,  
+y servicios que se utilizan para desarrollar y ejecutar aplicaciones 
+web en php bajo windows con maquinas de pocos recursos en 32bits, 
+usando php7.3 y mariadbx32 y un HeidiSQL para ver la Base de Datos.
 
-Es un stack simple de instalar sin la necesidad de instalar un xampp o un wampp, de igual forma se puede colocar en maquinas en red utilizando la ip de la maquina y sirve para montar aplicaciones en pequeñas oficinas.
+Es un stack simple de instalar sin la necesidad de instalar 
+un xampp o un wampp, de igual forma se puede colocar en 
+maquinas en red utilizando la ip de la maquina 
+y sirve para montar aplicaciones en pequeñas oficinas.
 
 # Instrucciones
 ## Clonar en la Raiz

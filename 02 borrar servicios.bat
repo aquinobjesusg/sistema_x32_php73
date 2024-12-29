@@ -1,5 +1,6 @@
-net stop MariaDBx32
-net stop PHP73x32
+net stop MariaDBx32_1010
+net stop PHP73x32_8183
 
-sc delete MariaDBx32
-sc delete PHP73x32
+sc delete MariaDBx32_1010
+sc delete PHP73x32_8183
+
